@@ -1,0 +1,46 @@
+/* 動作確認のために色を付けました。 */
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+}
+#items {
+  text-align: center;
+  background-color: greenyellow;
+}
+#syoukai-image {
+  width: auto;
+  height: 300px;
+}
+#choice-1 {
+  background-color: darkorchid;
+}
+#choice-2 {
+  background-color: darkorchid;
+}
+#choice-3 {
+  background-color: darkorchid;
+}
+#info-container {
+  background-color: whitesmoke;
+}
+.allfeedback {
+  font-weight: bold;
+  font-size: 150%;
+  font-style: oblique;
+  animation: Anime 3s linear infinite;
+}
+@keyframes Anime {
+  0% {
+    color: #ffffff;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: white;
+  }
+}

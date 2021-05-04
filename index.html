@@ -2,13 +2,37 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jikosyoukai</title>
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
   </head>
   <body>
+    <div class="container">
+      <div id="items">
+        <div>今日の数字雑学</div>
+        <button id="betu">別の!</button>
+        <div id="trivia"></div>
+        <h2 id="syoukai-text"></h2>
+        <img src="" id="syoukai-image" />
+        <div>
+          <button id="choice-1"></button>
+          <button id="choice-2"></button>
+          <button id="choice-3"></button>
+        </div>
+        <div id="feedback"></div>
+        <div class="allfeedback" id="allfeedback"></div>
+        <div class="input-container">
+          <div>追加情報(パスワードを知らないと追加できません)</div>
+          <input type="text" class="input-todo" id="input-todo" />
+          <div id="pass"></div>
+          <input type="text" class="passward" id="passward" /><br />
+          <button id="add-button">追加</button>
+          <button id="remove-button">全削除</button>
+          <div id="info-container"></div>
+        </div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
